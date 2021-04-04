@@ -7,7 +7,6 @@ const createChart = (time, price, coin) => {
   }
 
   let ctx = document.getElementById('line-chart').getContext('2d');
-  console.log(ctx);
   var gradient = ctx.createLinearGradient(0, 0, 0, 400);
 
   if (coin == "bitcoin"){

@@ -151,7 +151,6 @@ updateCardDivs = (coin) => {
     else if (coin == "chainlink"){
         coinNickName = "link";
     }
-    console.log(coinNickName);
     document.getElementById("coin-logo").src = `https://s3.us-east-2.amazonaws.com/nomics-api/static/images/currencies/${coinNickName}.svg`;
 }
 
