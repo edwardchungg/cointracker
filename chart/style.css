@@ -1,0 +1,56 @@
+body{
+    text-align: center;
+}
+.card{
+    height: 397px;
+    width: 100%;
+}
+.logo{
+    float: left;
+}
+.stick-right{
+    right: 0;
+    top: 5%;
+    
+    position: absolute;
+}
+.stick-middle{
+    right: 25%;
+    left: 25%;
+    top : 5%;
+    position: absolute;
+}
+.duration-select{
+    float: right;
+    margin: 5px;
+}
+.coin-select{
+    float:right;
+    margin: 5px;
+}
+.card-header{
+    overflow: hidden;
+    display: inline;
+}
+
+.card-title{
+    text-transform: capitalize;
+    float:left;
+    font-size: 25px;
+    padding: 5px;
+    margin: 5px;
+}
+.coin-name{
+    font-weight: bold;
+}
+.card-body{
+    padding: none;
+}
+.details{
+    font-size: 15px;
+}
+.current-price{
+    padding: none;
+    margin: none;
+    align-self: center;
+}
