@@ -2,8 +2,9 @@ body{
     text-align: center;
 }
 .card{
-    height: 397px;
+    height: 600px;
     width: 100%;
+    border: none;
 }
 .logo{
     float: left;
@@ -53,4 +54,10 @@ body{
     padding: none;
     margin: none;
     align-self: center;
+}
+.col{
+    border: 1px solid;
+    border-radius: 25px;
+    padding: 0;
+    overflow: hidden;
 }
