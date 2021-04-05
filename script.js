@@ -6,7 +6,7 @@ const fetchAPI = async(url) => {
 
 const updateChart = (coin,duration) => {
     if (duration == "1mo"){
-        fetchAPI(`https://api.coingecko.com/api/v3/coins/${coin}/market_chart?vs_currency=usd&days=30&interval=daily`)
+        fetchAPI(`https://api.coingecko.com/api/v3/coins/${coin}/market_chart?vs_currency=usd&days=30&interval=hourly`)
         .then(data => {
             console.log(data);
             var timeArray = [];
