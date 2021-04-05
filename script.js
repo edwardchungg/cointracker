@@ -158,7 +158,7 @@ updatePrice = (coin) => {
     fetchAPI(`https://api.coingecko.com/api/v3/simple/price?ids=${coin}&vs_currencies=usd&include_market_cap=true`)
     .then(data => {
         console.log(data);
-        if (coin == "dogecoin"){
+        if (coin == "dogecoin" || coin == "bitcoin"){
             document.getElementById('current-price').innerHTML = '$' + (data[coin].usd);
         } else{
             document.getElementById('current-price').innerHTML = '$' + (data[coin].usd).toFixed(2);
